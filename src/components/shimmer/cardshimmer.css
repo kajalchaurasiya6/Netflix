@@ -1,0 +1,41 @@
+.carousel-item {
+    width: 240px;
+    height: 130px;
+    flex-shrink: 0;
+    border-radius: 4px;
+}
+.image-shimmer{
+    width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    #2a2a2a 25%,
+    #3a3a3a 50%,
+    #2a2a2a 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1s infinite;
+  border-radius: 6px;
+}
+.text-shimmer{
+     width: 80%;
+  height: 16px;
+  margin: 10px auto;
+  background: linear-gradient(
+    90deg,
+    #2a2a2a 25%,
+    #3a3a3a 50%,
+    #2a2a2a 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1s infinite;
+  border-radius: 4px;
+}
+@keyframes shimmer {
+   0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}

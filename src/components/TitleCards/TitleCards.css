@@ -1,0 +1,74 @@
+.title-cards {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.title-cards h2 {
+    margin-bottom: 8px;
+}
+
+.shimmer-row {
+    display: flex;
+    gap: 12px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 240px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card {
+    position: relative;
+}
+
+.card p {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+@media (max-width:800px) {
+    .title-cards {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .title-cards h2 {
+        font-size: 20px;
+    }
+    .shimmer-row {
+        gap: 10px;
+    }
+    .card img {
+        width: 180px;
+    }
+
+    .card p {
+        font-size: 12px;
+        right: 0;
+    }
+    .carousel-item {
+        width: 180px;
+        height: 100px;
+    }
+}
+@media (max-width:500px) {  
+    .title-cards h2 {
+        font-size: 15px;
+    }
+    .card img {
+        width: 160px;
+    }
+
+    .card p {
+        font-size: 10px;
+        right: 0;
+    }
+    .carousel-item {
+        width: 160px;
+        height: 100px;
+    }
+}
