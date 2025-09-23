@@ -8,7 +8,7 @@ const Player = () => {
  const navigate = useNavigate();
 let url = `${import.meta.env.VITE_TMDB_BASE_URL}/movie/${id}/videos?api_key=${import.meta.env.VITE_TMDB_API_KEY}&language=en-US`;
 
-  const {data:videoDetails,isLoading,isError} = useQuery({
+  const {data:videoDetails} = useQuery({
     queryKey: ['videoDetails'],
     queryFn: () => apiClient({url}),
     select: (data) => data?.results?.[0] || null
