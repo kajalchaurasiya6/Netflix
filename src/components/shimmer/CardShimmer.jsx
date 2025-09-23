@@ -1,4 +1,4 @@
-import './cardShimmer.css'
+import './cardshimmer.css'
 const CardShimmer = () => {
     return (
         <div className="carousel-item" >
