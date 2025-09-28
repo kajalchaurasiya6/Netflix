@@ -10,6 +10,7 @@ import {
 } from '@tanstack/react-query'
 import { AuthProvider } from './context/AuthContext.jsx';
 import FallbackComponent from './components/Errorboundary/ErrorBoundary.jsx';
+const queryClient = new QueryClient()
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ErrorBoundary      
@@ -17,7 +18,7 @@ createRoot(document.getElementById('root')).render(
 >
     <BrowserRouter>
     <AuthProvider>
-      <QueryClientProvider client={new QueryClient()}>
+      <QueryClientProvider client={queryClient}>
         <App />
       </QueryClientProvider>
     </AuthProvider>
