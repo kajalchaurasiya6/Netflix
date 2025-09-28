@@ -1,14 +1,61 @@
-# React + Vite
+# 🎬 Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Netflix Clone built with **React + Vite**.  
+This project  includes **Login, Home, and Player pages**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+🔗 [View Project Here](https://miniproject-netfllix.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-<img width="1328" height="532" alt="image" src="https://github.com/user-attachments/assets/f5656dfa-b430-4870-993e-960e45f9f9d9" />
-<img width="1185" height="571" alt="image" src="https://github.com/user-attachments/assets/b1018cb3-78e7-42f0-96db-355331762aad" />
+## 📸 Screenshots
+
+### 🔑 Login Page
+<img width="1328" height="532" alt="image" src="https://github.com/user-attachments/assets/2477bfb9-47d4-4f56-b6fc-a87ca43654a6" />
+
+### 🏠 Home Page
+<img width="1185" height="571" alt="image" src="https://github.com/user-attachments/assets/f79f12b2-5235-4e33-ad76-935c91310cec" />
+
+### ▶️ Player Page
+<img width="1331" height="612" alt="playerpage" src="https://github.com/user-attachments/assets/39fd8a9f-43a4-4805-9a9e-9dbf5092ed5b" />
+
+---
+
+## ✨ Features
+
+- **Login Page** – User authentication UI  (Firebase)
+- **Home Page** – Browse movies and shows   
+- **Player Page** – Watch trailer or video playback  
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚡ [Vite](https://vitejs.dev/) – Frontend build tool  
+- ⚛️ [React](https://react.dev/) – UI library  
+- 🎨 [CSS]
+- 🚀  [firebase] - Authentication
+- 🚀 [Netlify](https://www.netlify.com/) – Deployment  
+
+---
+
+## 📂 Project Setup
+
+```bash
+# clone the repo
+git clone https://github.com/kajalchaurasiya6/netflix.git
+
+# navigate to project
+cd netflix-clone
+
+# install dependencies
+npm install
+
+# start development server
+npm run dev
+
+# build for production
+npm run build
+
